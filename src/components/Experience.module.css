@@ -1,0 +1,79 @@
+.container {
+  padding: 4rem;
+}
+.body h3 {
+  position: relative;
+  font-size: 20px;
+  color: aliceblue;
+}
+.body h3::before {
+  position: absolute;
+  content: "";
+  background-color: #f6a326;
+  height: 1.5px;
+  width: 900px;
+  bottom: 10px;
+  left: 190px;
+}
+.body h3 span {
+  margin-right: 20px;
+  color: #ffbd59;
+}
+.expContainer {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 3rem;
+  margin-top: 50px;
+}
+.expCard {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1320px) {
+  .body h3::before {
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 1157px) {
+  .body h3::before {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .container {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+  .body h3::before {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .body h3::before {
+    display: none;
+  }
+  .container {
+    margin: 0;
+    padding: 0 30px;
+  }
+  .expContainer {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    margin-top: 50px;
+  }
+  .expCard p {
+    font-size: 10px;
+  }
+  .expCard h3 {
+    font-size: 15px;
+  }
+}

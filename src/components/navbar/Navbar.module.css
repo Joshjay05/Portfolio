@@ -1,0 +1,86 @@
+.navbar {
+  /* background-color: #000d10; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+  top: 0;
+  height: 80px;
+}
+.logo {
+  position: relative;
+}
+.logo p {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  color: #ffbd59;
+  position: absolute;
+  top: 64px;
+  left: 30px;
+  transform: skewY(-7deg);
+}
+.logo img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.navLinks {
+  display: flex;
+  margin-left: 90px;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+.navLinks li span {
+  margin-right: 10px;
+  color: #ffbd59;
+  font-size: 15px;
+}
+.navLinks li a {
+  text-decoration: none;
+  color: #d5dee6;
+  letter-spacing: 1.8px;
+  transition: 0.3s all ease-in-out;
+}
+.navLinks li a:hover {
+  color: #ffbd59;
+}
+.lastDiv {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.lastDiv .downloadBtn {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 20px;
+  font-size: 13px;
+  color: #ffbd59;
+  transition: 0.2s all ease-in-out;
+}
+.lastDiv .downloadBtn:hover {
+  color: #f7c985;
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 950px) {
+  .navbar {
+    padding: 0 30px 0 30px;
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  .navLinks,
+  .downloadBtn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navbar {
+    padding: 0 30px 0 0;
+  }
+}
