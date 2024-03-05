@@ -82,7 +82,7 @@ const Intro = () => {
               <a href="#projects" className={classes.viewProjects}>
                 View Projects
               </a>
-              <a href="tel: +2347066140323" className={classes.callMe}>
+              <a href="tel: +2348160147822" className={classes.callMe}>
                 Call Me
               </a>
             </div>
@@ -95,28 +95,28 @@ const Intro = () => {
               $isDark={isDarkTheme}
             >
               <a
-                href="https://www.linkedin.com/in/emmanuel-owolabi-6b5b73172/"
+                href="https://www.linkedin.com/in/jesulona-joshua-608037141/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <BsLinkedin style={isDarkTheme ? {} : { color: "#001b20" }} />
               </a>
               <a
-                href="https://wa.me/+2348138469203"
+                href="https://wa.me/+2348160147822"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <BsWhatsapp style={isDarkTheme ? {} : { color: "#001b20" }} />
               </a>
               <a
-                href="https://twitter.com/infiniti0x"
+                href="mailto:odeladejesulona@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaTwitter style={isDarkTheme ? {} : { color: "#001b20" }} />
               </a>
               <a
-                href="https://github.com/Nametheman"
+                href="https://github.com/Joshjay05"
                 target="_blank"
                 rel="noopener noreferrer"
               >

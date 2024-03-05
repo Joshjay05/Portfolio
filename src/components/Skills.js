@@ -6,11 +6,11 @@ import git from "../assets/images/git.png";
 import js from "../assets/images/js.png";
 import ts from "../assets/images/ts.png";
 import next from "../assets/images/next.png";
-import redux from "../assets/images/redux.png";
+// import redux from "../assets/images/redux.png";
 import tailwind from "../assets/images/tailwind.png";
 // import ps from "../assets/images/ps.png";
 import react from "../assets/images/react.png";
-import angular from "../assets/images/angular.png";
+// import angular from "../assets/images/angular.png";
 import Card from "../reusables/Card";
 import { ThemeContext } from "../context/ThemeContext";
 
