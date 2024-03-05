@@ -23,7 +23,7 @@ const Footer = () => {
 							to contact me at any time if you have any queries or would want to
 							discuss new opportunities.
 						</p>
-						<p
+						{/* <p
 							className="calendly"
 							style={isDarkTheme ? {} : { color: "#001b20" }}>
 							or book a time with me via call using my calendly link{" "}
@@ -33,7 +33,7 @@ const Footer = () => {
 								rel="noopener noreferrer">
 								here.
 							</a>
-						</p>
+						</p> */}
 					</div>
 					<div className="btnWrapper">
 						<a href={file} download>
